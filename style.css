@@ -1060,14 +1060,41 @@ footer{
 
 @media (max-width:640px){
   section{padding:64px 0;}
-  .countdown{gap:10px;}
-  .countdown .unit{min-width:78px;padding:14px 8px 12px;}
-  .countdown .sep{font-size:20px;}
-  .hero-actions{flex-direction:column;align-items:stretch;}
-  .btn{justify-content:center;}
+
+  .hero{padding-top:70px;}
+  .hero-inner{padding:32px 20px 40px;}
+  .badge{padding:7px 16px;margin-bottom:18px;font-size:11px;}
+  .hero h1{line-height:1.03;}
+  .hero-sub{margin-top:14px;font-size:19px;}
+  .hero-mission{margin-top:14px;font-size:14.5px;max-width:420px;}
+
+  .countdown{gap:8px;margin:26px auto 10px;}
+  .countdown .unit{min-width:58px;padding:10px 4px 8px;border-radius:12px;}
+  .countdown .num{font-size:20px;}
+  .countdown .label{font-size:9px;letter-spacing:0.06em;margin-top:5px;}
+  .countdown .sep{font-size:15px;padding-top:2px;}
+
+  .hero-note{font-size:13px;margin-bottom:22px;}
+  .hero-actions{flex-direction:column;align-items:stretch;gap:10px;}
+  .btn{justify-content:center;padding:14px 24px;font-size:13.5px;}
+
+  .scroll-cue{display:none;}
+
   .footer-top{flex-direction:column;}
   .footer-form-row{flex-direction:column;}
   .footer-form button{width:100%;justify-content:center;}
+}
+
+@media (max-width:400px){
+  .hero-inner{padding:26px 16px 32px;}
+  .badge{margin-bottom:14px;}
+  .hero-mission{display:none;}
+  .countdown{gap:6px;margin:20px auto 8px;}
+  .countdown .unit{min-width:50px;padding:9px 3px 7px;}
+  .countdown .num{font-size:17px;}
+  .countdown .label{font-size:8px;}
+  .countdown .sep{font-size:13px;}
+  .hero-note{margin-bottom:16px;}
 }
 
 @media (min-width:1800px){
