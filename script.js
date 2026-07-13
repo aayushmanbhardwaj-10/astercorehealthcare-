@@ -116,7 +116,7 @@
    * ================================================================== */
 
   var Countdown = (function () {
-    var launchDate = new Date("2027-06-01T00:00:00Z").getTime();
+    var launchDate = new Date("2035-01-01T00:00:00Z").getTime();
     var els = {
       years: document.getElementById("cd-years"),
       days: document.getElementById("cd-days"),
